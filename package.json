@@ -1,0 +1,30 @@
+{
+  "name": "karma-systemjs-test",
+  "version": "1.0.0",
+  "description": "Karma and SystemJS - what do I have to do to make it load a bloody test?",
+  "repository": "https://github.com/tintoy/karma-systemjs-test",
+  "private": true,
+  "main": "index.js",
+  "author": "tin toy <tintoy@tintoy.io>",
+  "license": "MIT",
+  "jspm": {
+    "directories": {},
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.21",
+      "babel-runtime": "npm:babel-runtime@^5.8.20",
+      "core-js": "npm:core-js@^1.0.0"
+    }
+  },
+  "devDependencies": {
+    "babel-core": "^5.8.23",
+    "es6-module-loader": "^0.17.7",
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.13.9",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-jasmine": "^0.3.6",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "karma-systemjs": "^0.8.0",
+    "phantomjs": "^1.9.18",
+    "systemjs": "^0.18.17"
+  }
+}
